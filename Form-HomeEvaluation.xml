@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.5">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Home Evaluation]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="1" isRequired="1" size="medium" type="address" addressType="us">
+				<label><![CDATA[Address of Property]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="1.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="1.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="1.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="1.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="1.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="1.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="5" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="2" size="medium" type="radio">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Condition]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Excellent]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Good]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fair]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Needs Work]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Poor]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="3" size="medium" type="select">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Property Type]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Single Family Residential]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Multi-Family Residential]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Rentals]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Farms]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Commercial]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Lots & Land]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Business Opportunity]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Rental Income]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Lease]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="22" size="medium" type="select">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Bedrooms]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[1]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5+]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="23" size="medium" type="select">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Bathrooms]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[1]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5+]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="7" size="small" type="textarea">
+				<description><![CDATA[Please list additional rooms and describe any special features and recent upgrades. For example: new roof, new carpet, custom kitchen cabinets, etc.]]></description>
+				<label><![CDATA[Additional Rooms/Features]]></label>
+			</field>
+			<field id="8" size="medium" type="text">
+				<adminLabel><![CDATA[Sq. Ft.]]></adminLabel>
+				<description><![CDATA[Square Feet]]></description>
+				<cssClass><![CDATA[gf_left_third]]></cssClass>
+				<label><![CDATA[Approx. Size]]></label>
+			</field>
+			<field id="9" size="medium" type="text">
+				<description><![CDATA[Years]]></description>
+				<cssClass><![CDATA[gf_middle_third]]></cssClass>
+				<label><![CDATA[Approx. Age of Kitchen]]></label>
+			</field>
+			<field id="10" size="medium" type="text">
+				<description><![CDATA[Years]]></description>
+				<cssClass><![CDATA[gf_right_third]]></cssClass>
+				<label><![CDATA[Approx. Age of Baths]]></label>
+			</field>
+			<field id="11" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="12" size="medium" type="textarea">
+				<label><![CDATA[Message]]></label>
+			</field>
+			<field id="13" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="18" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[Please provide the following information so we can contact you with your home evaluations report.]]></content>
+			</field>
+			<field id="14" isRequired="1" size="medium" type="name">
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="14.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="14.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="15" isRequired="1" size="medium" type="email">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Email Address]]></label>
+			</field>
+			<field id="16" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="17" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<br /><br />By submitting this form with your telephone number, you are consenting for Lee Aarons and authorized representatives to contact you even if your name is on the Federal "Do-not-call List."]]></content>
+			</field>
+			<field id="19" size="medium" type="hidden">
+				<defaultValue><![CDATA[{ip}]]></defaultValue>
+				<label><![CDATA[IP Address]]></label>
+			</field>
+			<field id="20" size="medium" type="hidden">
+				<defaultValue><![CDATA[{embed_url}]]></defaultValue>
+				<label><![CDATA[Embed URL]]></label>
+			</field>
+			<field id="21" size="medium" type="hidden">
+				<defaultValue><![CDATA[{entry_url}]]></defaultValue>
+				<label><![CDATA[Entry URL]]></label>
+			</field>
+			<field id="24" type="hidden" size="medium">
+				<label><![CDATA[Date]]></label>
+				<defaultValue><![CDATA[{date_mdy}]]></defaultValue>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="51e59b0f33810" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="51e59b0f32740">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>

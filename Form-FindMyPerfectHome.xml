@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.5">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Find My Perfect Home]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="29" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<h2>Contact Information</h2>]]></content>
+			</field>
+			<field id="1" isRequired="1" size="medium" type="name">
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="1.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="1.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="2" isRequired="1" size="medium" type="email">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="3" size="medium" type="phone" phoneFormat="standard">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="4" size="medium" type="select">
+				<label><![CDATA[Best Time to Contact You]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Morning]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Noon]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Afternoon]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Evening]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="16" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="6" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<h2>Property Preferences</h2>]]></content>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+			</field>
+			<field id="7" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<h2>Moving Details</h2>]]></content>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+			</field>
+			<field id="8" size="medium" type="select">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Type of Home]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Single Family]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Multi-Family]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Townhome]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Condo]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Land]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Commercial]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Investment]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Residential]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="9" size="medium" type="select">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[When do you want to move?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[< 30 Days]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1 Month]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[6+ Months]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="10" size="medium" type="select">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Price Range]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[< $100,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $150,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $200,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $250,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $300,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $350,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $400,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $450,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $500,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $600,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $700,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $800,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $900,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $1,000,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $1,250,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $1,500,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[< $2,000,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[$2,000,000+]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="11" size="medium" type="select">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[When did you start looking?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[< 30 Days]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1 Month]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5 Months]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[6+ Months]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="30" type="select" size="medium">
+				<label><![CDATA[Beds]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[0]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5+]]></text>
+					</choice>
+				</choices>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+			</field>
+			<field id="13" size="medium" type="text">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Where would you like to own?]]></label>
+			</field>
+			<field id="31" type="select" size="medium">
+				<label><![CDATA[Baths]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[0]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5+]]></text>
+					</choice>
+				</choices>
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+			</field>
+			<field id="32" type="select" size="medium">
+				<label><![CDATA[Selling?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Yes]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[No]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Maybe]]></text>
+					</choice>
+				</choices>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+			</field>
+			<field id="18" size="medium" type="select">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Living Space]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[< 1,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1,000 - 1,250]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1,250 - 1,500]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1,500 - 1,750]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1,750 - 2,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2,000 - 2,500]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2,500 - 3,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3,000 - 4,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4,000 - 5,000]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5,000+]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="33" type="select" size="medium">
+				<label><![CDATA[Pre-Qualified?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Yes]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[No]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Maybe]]></text>
+					</choice>
+				</choices>
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+			</field>
+			<field id="20" size="medium" type="select">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Lot Size]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Half Acre]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[1 Acre]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[10 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[15 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[20 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[25 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[30 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[40 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[50 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[75 Acres]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[100+ Acres]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="21" size="medium" type="select">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Working with a REALTOR®?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Yes - To Buy]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Yes - To Sell]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Yes - To Buy & Sell]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[No]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="23" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="24" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<h2>Additional Details</h2>]]></content>
+			</field>
+			<field id="22" size="medium" type="textarea">
+			</field>
+			<field id="25" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[<br /><br />By submitting your telephone number you are consenting for any and all authorized representatives to contact you even if your name is on the Federal Do-Not-Call List. Your information will not be shared or exchanged with anyone.<br />* Required Information.]]></content>
+			</field>
+			<field id="26" size="medium" type="hidden">
+				<defaultValue><![CDATA[{ip}]]></defaultValue>
+				<label><![CDATA[IP Address]]></label>
+			</field>
+			<field id="27" size="medium" type="hidden">
+				<defaultValue><![CDATA[{embed_url}]]></defaultValue>
+				<label><![CDATA[Embed URL]]></label>
+			</field>
+			<field id="28" size="medium" type="hidden">
+				<defaultValue><![CDATA[{entry_url}]]></defaultValue>
+				<label><![CDATA[Entry URL]]></label>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="51e57f199a6cb" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="51e57f1998664">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>

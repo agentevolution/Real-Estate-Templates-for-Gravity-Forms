@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.5">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Renter Profile Form]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="2" size="medium" type="select">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Where do you currently live?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[I live in the area]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[I am moving from out of town]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="4" size="medium" type="radio">
+				<cssClass><![CDATA[gf_right_half gf_list_inline]]></cssClass>
+				<label><![CDATA[Do you rent or own?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Rent]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Own]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="5" size="medium" type="number" numberFormat="decimal_dot">
+				<label><![CDATA[How much is your current monthly rent/mortgage?]]></label>
+			</field>
+			<field id="6" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="8" size="medium" type="radio">
+				<cssClass><![CDATA[gf_left_third gf_list_inline]]></cssClass>
+				<label><![CDATA[Are you currently employed?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Yes]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[No]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="9" size="medium" type="text">
+				<cssClass><![CDATA[gf_middle_third]]></cssClass>
+				<label><![CDATA[What is your current profession?]]></label>
+			</field>
+			<field id="10" size="medium" type="text">
+				<cssClass><![CDATA[gf_right_third]]></cssClass>
+				<label><![CDATA[Who is your current employer?]]></label>
+			</field>
+			<field id="7" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="3" size="medium" type="radio">
+				<cssClass><![CDATA[gf_left_half gf_list_inline]]></cssClass>
+				<label><![CDATA[How many adults will be living here?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[1]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[2]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[3]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[4]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[5+]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="1" size="medium" type="radio">
+				<cssClass><![CDATA[gf_right_half gf_list_inline]]></cssClass>
+				<label><![CDATA[Are you a convicted felon?]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Yes]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[No]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="11" size="medium" type="section" displayOnly="1">
+			</field>
+			<field id="12" size="medium" type="textarea">
+				<label><![CDATA[Comments]]></label>
+			</field>
+			<field id="13" size="medium" type="hidden">
+				<defaultValue><![CDATA[{ip}]]></defaultValue>
+				<label><![CDATA[IP Address]]></label>
+			</field>
+			<field id="14" size="medium" type="hidden">
+				<defaultValue><![CDATA[{embed_url}]]></defaultValue>
+				<label><![CDATA[Embed URL]]></label>
+			</field>
+			<field id="15" size="medium" type="hidden">
+				<defaultValue><![CDATA[{entry_url}]]></defaultValue>
+				<label><![CDATA[Entry URL]]></label>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="51e5b2f10f861" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="51e5b2f10dff8">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>

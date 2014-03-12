@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.5">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Contact]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="1" isRequired="1" size="medium" type="name">
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="1.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="1.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="2" isRequired="1" size="medium" type="email">
+				<label><![CDATA[Email Address]]></label>
+			</field>
+			<field id="3" size="medium" type="textarea">
+				<label><![CDATA[Message]]></label>
+			</field>
+			<field id="4" type="hidden" size="medium">
+				<label><![CDATA[IP Address]]></label>
+				<defaultValue><![CDATA[{ip}]]></defaultValue>
+			</field>
+			<field id="5" type="hidden" size="medium">
+				<label><![CDATA[Embed URL]]></label>
+				<defaultValue><![CDATA[{embed_url}]]></defaultValue>
+			</field>
+			<field id="6" type="hidden" size="medium">
+				<label><![CDATA[Entry URL]]></label>
+				<defaultValue><![CDATA[{entry_url}]]></defaultValue>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="51e5b036686e4" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="51e5b03666d97">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>
