@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.8">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Move Out - Cleaning Checklist]]></title>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="2" isRequired="1" size="medium" type="name">
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="2.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="2.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="4" size="medium" type="phone" phoneFormat="standard">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="5" size="medium" type="email">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="6" isRequired="1" size="medium" type="address" addressType="international" hideCountry="1">
+				<label><![CDATA[Address]]></label>
+				<hideState><![CDATA[1]]></hideState>
+				<inputs>
+					<input id="6.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="6.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="6.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="6.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="6.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="6.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="1" size="medium" type="checkbox">
+				<label><![CDATA[Kitchen]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Cupboards, drawers cleaned inside and out]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Refrigerator wiped out, defrosted, door seal cleaned, shelves taken out, drawers out and cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean Freezer]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Move refrigerator, clean sides, clean floor under and behind]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Oven and stovetop cleaned out thoroughly]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean door, stovetop, under burners and burners]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Try to save pans, rings and broiler pan - throw away if not salvageable]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean range hood]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Move stove, clean sides, clean floor under and behind]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Wipe out dishwasher]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean counter tops]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean and shine sink, detail disposal]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean floor and wax]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean light fixtures and exhaust filter, then reinstall]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="7" size="medium" type="checkbox">
+				<label><![CDATA[Bathrooms]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Shower walls scrubbed]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Bathtub scrubbed and cleaned thoroughly]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Faucets and showerhead shined]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Toilet cleaned inside and out]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Cabinets cleaned inside and out]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sink and counter cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Shine faucet]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Floor cleaned and waxed]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Light fixtures cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Exhaust fan cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Heat lamp wiped off]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="8" size="medium" type="checkbox">
+				<label><![CDATA[Cleaning in all rooms]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Permanent light fixtures]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Thermostat covers]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Heat vents]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Closet shelves]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Shelf brackets]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Top of water heater]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Switch plate covers]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Carpet professionally cleaned per lease agreement (Sec. 6, paragraph b)]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="9" size="medium" type="checkbox">
+				<label><![CDATA[Fireplaces]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Tile cleaned and waxed]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Ashes scooped out]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Front and grate wiped down]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="10" size="medium" type="checkbox">
+				<label><![CDATA[Door (including closet doors)]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean tracks]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="11" type="checkbox" size="medium">
+				<label><![CDATA[Decks and Patios]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Remove all items from storage area and clean same as move-in condition]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Clean decks and patios]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sweet entryway]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="12" type="checkbox" size="medium">
+				<label><![CDATA[Lawn and Garden Care]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Lawn to be maintained in "original" move-in condition, watered, mowed and edges trimmed]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Gardens to be cleaned and weed free]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="13" type="checkbox" size="medium">
+				<label><![CDATA[Windows and Mirrors]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Tracks wiped out]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Windows cleaned outside as well as inside]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Mirrors cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Medicine cabinet mirrors cleaned]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="14" type="checkbox" size="medium">
+				<label><![CDATA[Utility Area]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[Washer wiped out and hinges cleaned]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Dryer wiped out and all lint removed]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Floors cleaned and waxed]]></text>
+					</choice>
+				</choices>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="53863dc2a246f" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="53863dc2a1d6c">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>
